@@ -1,4 +1,12 @@
 hl { color : red;}
-.paragraph{ color: darkgreen;}
+.paragraph{ color: #880808;}
 #heading2 { color: blue; }
+
+.limbs{
+	background: #880808;
+	width: 400px;
+	padding: 16px;
+	color:white;
+	margin: 16px;
+}
 
