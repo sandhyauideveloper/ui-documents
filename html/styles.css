@@ -1,9 +1,11 @@
-html{
+
+/* Globle styles*/
+html { 
 	margin: 0;
 	padding:0;
 	background-color: #777;
 }
-body{
+body {
 	width:80%;
 	margin:0 auto;
 	font:100% Arial, sans-serif;
@@ -11,30 +13,50 @@ body{
 }
 h1 {color: red;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: normal;
 	font-style: italic;
 }
-.paragraph{ color: white;
+h2 {
+	color:aqua;
+}
+.paragraph { color: white;
 	line-height: 1.6;
 	text-align: justify;
 	width: 70%;
 	margin: 0;
 	margin-bottom: 1em;
 }
-.limbs{
+.limbs {
 	background: #880808;
 	width: 400px;
 	padding: 16px;
 	color: white;
 	margin: 16px;
 }
-
+.nav a {
+	text-decoration: none;
+	color: red;
+	display: inline-block;
+	padding: 5px;
+}
+.nav a:hover {
+	color:black;
+}
+.nav li {
+	display: inline-block;
+	border:2px solid green;
+	background: white;
+}
 a {
 	text-decoration: none;
 	color: red;
 }
-a:hover{
-	
-	color:black;
+a:hover {
+	color:white;
 }
+#global-footer {
+	/* set background color to white 
+	background: white;
+}
+	*/
