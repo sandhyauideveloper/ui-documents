@@ -1,3 +1,5 @@
+html{ }
+body { font-size: 100%; }
 
 /* Globle styles*/
 html { 
@@ -86,4 +88,18 @@ a:hover {
 font-family:'Caveat', cursive;
 font-weight: 900;
 }
+
+a[target] {
+  background-color: yellow;
+}
+
+a[target="_blank"] {
+  background-color: mediumvioletred;
+}
+
+
+ul[start] li:nth-child(3n+2) {
+  background: blue;
+}
+
 	

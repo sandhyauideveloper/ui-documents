@@ -1,0 +1,128 @@
+/* Globle styles*/
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #777;
+}
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 10px solid #880808;
+	font-weight: normal;
+}
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: normal;
+	margin: 0px;
+}
+h1 {
+	color: red;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+h2 {
+	color: aqua;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.paragraph {
+	color: white;
+	line-height: 1.6;
+	text-align: justify;
+	width: 70%;
+	margin: 0;
+	margin-bottom: 1em;
+}
+.limbs {
+	background: #880808;
+	width: 350px;
+	padding: 16px;
+	color: white;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+.nav li {
+	display: inline-block;
+	border: 3px solid red;
+	background: white;
+	margin: 5px;
+}
+.nav a {
+	color: red;
+	display: inline-block;
+	padding: 2px;
+}
+.nav a:hover {
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+	color: white;
+}
+/* content-wrap
+.content-wrap{
+	max-width:950px;
+	margin:0 auto;
+	padding:10px;
+}
+*/
+.border-img {
+	list-style: none;
+	padding: 0;
+	float: left;
+}
+.border-img > li {
+	float : left;
+	width: 30%;
+	margin: 5px;
+}
+.border-img img {
+	width: 98%;
+	border: 3px solid green;
+}
+.img-font {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: red;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+.centre-border-img {
+	list-style: none;
+	padding: 0;
+	float: left;
+}
+.centre-border-img > li {
+	float : left;
+	width: 30%;
+	margin: 5px;
+}
+.centre-border-img img {
+	width:98%;
+		border: 3px solid green;
+}
+.rty-border-img {
+	list-style: none;
+	width:250px;
+	padding: 0;
+	float: right;
+	margin: 0;
+}
+/* footer styles*/
+#global-footer {
+	/* set background color to white */
+	background: white;
+	margin: 0px auto;
+	text-align: center;
+	padding: 2px;
+}
+.contact-info {
+	font-family: 'Caveat', cursive;
+	font-weight: 900;
+}
