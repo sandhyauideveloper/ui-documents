@@ -1,9 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
+.clearboth { clear: both;}
+.clearfix:after { content: ""; display: block; clear:both; }
 
-.clearfix{ clear: both;}
+a { color: #394753; text-decoration: underline;}
+a:hover { text-decoration: none;}
 
-body { margin: 0; padding:0; font-family: Verdana, Arial, sans-serif;  background-color: #394753;}
+body { font-family: "Helvetica Neue", Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529; background-color: #394753; }
+
 
 .site-wrapper { width: 700px; margin-left: auto; margin-right: auto;}
 
@@ -27,3 +29,10 @@ body { margin: 0; padding:0; font-family: Verdana, Arial, sans-serif;  backgroun
 .tile h4 { margin: 5px 5px 0px; font-size:11px; font-weight:bold; font-family:Tahoma, sans-serif;}
 
 .site-footer{ height: 20px; background-color:#394753; font-weight: normal; font-size:11px; font-family: Tahoma, Arial, sans-serif; color: #fff; text-align:center; padding:5px;}
+
+h4::after {
+  content: "";
+}
+p a::before {
+	content: "»";
+}

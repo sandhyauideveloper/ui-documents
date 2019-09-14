@@ -5,10 +5,10 @@
 
 body { margin: 0px; padding: 0px; background-color: #394753;}
 
-.site-wrapper{ width:700px; margin-left:auto; margin-right: auto;}
+.site-wrapper{ width:1000px; margin-left:auto; margin-right: auto;}
 
 .site-header{ height: 80px; background-color: #fff;}
-.site-header-span{ font-size:29px; font-family: georgia, serif; padding: 20px; font: #394753; display: inline-block;}
+.site-header-span{ font-size:29px; font-family: georgia, serif; padding: 20px; color: #394753; display: inline-block;}
 
 .site-nav ul{ list-style: none;  background-color: #394753; margin:0px; padding: 0px; float:right;}
 .site-nav li{ border: 1px solid #394753; border-right: 0px; float: left; }
@@ -16,9 +16,9 @@ body { margin: 0px; padding: 0px; background-color: #394753;}
 .site-nav a{ padding: 5px 15px; text-decoration: underline; color: #fff; font-family: tahoma, sans-serif; font-size:11px; font-weight:bold; display: inline-block; vertical-align: top;}
 .site-nav a:hover{ color:#000; background-color: #fff;}
 
-.site-banner{ height: 250px; border-top:1px solid #fff; margin: 0px; padding: 0px; background-image: url("../images/header.jpg");}
+.site-banner{ height: 250px; border-top:1px solid #fff; margin: 0px; padding: 0px; background: url("../images/header.jpg") no-repeat 0 0;}
 
-.site-content { background-color: #fff; padding: 5px; 15px; 25px;}
+.site-content { background-color: #fff; padding: 5px 15px 25px;}
 .tile{ width: 210px; background-color:#f9f9f9; border: 1px solid #bbb; float: left; margin: 8px 8px 25px; }
 .tile .img-wrapper{ width:75px; height:75px; border:1px solid #bbb; float:right; margin: -5px -5px 0px 0px; background-color: #fff;}
 .tile h4{ font-size:11px; font-family: Tahoma, sans-serif; font-weight: bold; margin: 5px 5px 0px; color:#000;}

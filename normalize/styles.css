@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.site-wrapper{width: 840px; margin-left:auto; margin-right: auto; margin-top:0px; background: #fff; border-left: 2px solid #fff; border-right: 2px solid #fff;}
+.site-header{ background: url("../htmlsite-latest/images/header.jpg") no-repeat center scroll; position:relative; height: 165px; margin-top:0px;}
+h1{font-size:38px; padding: 20px; color:#fff; margin: 0px; font-weight: normal;}
+
+.left-container{ background: #fff; float: left; width:150px;}
+h3 {color:#666; padding: 10px; font-size: 18px; text-align:left; margin:0px; font-weight: normal;}
+
+.site-nav ul{list-style: none; margin:0px; padding: 0px;}
+.site-nav li{ border-bottom:1px solid #9C3D00; padding:0px 0px 5px 5px; margin: 10px;}
+.site-nav a{ font-size:11px; color:#000; text-align: left; text-decoration: none; }
+.site-nav a:hover{ color:#fff; text-align: right; background: #520b00;}
+
+.rty-container{margin-left:190px; width:600px;}
+h2{font-size:25px; color:#666; padding: 10px; margin:0px; text-align: left; font-weight: normal;}
+p{font-size:11px; text-align: justify; padding-left:3px; margin:0px 10px 20px;}
+
+.site-footer{background: #9C3D00; color:#fff; text-align: center; margin-top: 60px; padding: 3px;}
