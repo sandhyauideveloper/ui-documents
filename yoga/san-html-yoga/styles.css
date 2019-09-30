@@ -1,15 +1,19 @@
-/* Globle styles*/
+@charset "utf-8";
+/* CSS Document */
+
 html {
 	margin: 0;
 	padding: 0;
-	background-image: url("images/"images/tree-pose.jpg")
 }
 body {
 	width: 80%;
-	margin: 0 auto;
+	align-content: center;
+	margin: auto;
 	font-family: 'Open Sans', sans-serif;
 	border-bottom: 10px solid #880808;
 	font-weight: normal;
+	background: #CCCCCC;
+	
 }
 h1, h2 {
 	font-family: 'Caveat', cursive;
@@ -42,6 +46,10 @@ h2 {
 	color: white;
 	float: left;
 	margin: 0px 10px 10px 0px;
+}
+.nav ul{
+	margin: 0px;
+	padding: 0px;
 }
 .nav li {
 	display: inline-block;
