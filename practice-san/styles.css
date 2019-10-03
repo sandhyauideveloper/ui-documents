@@ -45,7 +45,7 @@
 .box-inline{width:200px; height:100px; border:2px solid #0A9664; margin:15px; display:inline-block;}
 
 .div-nav{border: 2px solid #C52023; }
-.nav{display: inline-block; width:25%; border: 2px solid #E9D386; border-sizing: border-box;}
+.nav{display: inline-block; width:25%; border: 2px solid #E9D386; box-sizing: border-box;}
 .nav li{padding:5px; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; color: #780666;}
 
-.column{width:75%; border:2px solid #000; border-sizing: border-box;}
+.column{width:75%; border:2px solid #000; box-sizing: border-box;}
