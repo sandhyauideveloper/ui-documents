@@ -12,7 +12,7 @@
 <form name="registration-form">
 	<tr>
 		<td>First Name</td>
-		<td><input type="text" name="fname" size="30" placeholder="Enter name"></td>
+		<td><input type="text" name="fname" size="30" placeholder="Enter name" autofocus></td>
 	</tr> 
 	<tr>
 	<td>Last Name </td>
@@ -38,8 +38,8 @@
 		<caption class="resume-thead">RESUME</caption>
 		<tbody>
 			<tr>
-				<td>User Name</td>
-				<td><input type="text" name="user name" size="25" ></td>
+				<td >User Name</td>
+				<td><input type="text" name="user name" size="25" autofocus></td>
 					</tr>
 		<tr>
 				<td>Password</td>
@@ -105,39 +105,81 @@
 			</tbody>
 			</table>
 			<!--form with border -->
-	<table style="width: 50%" class="border-form">
-			<thead align="center">
-				<td class="td-width">Name</td>
-				<td>Value</td>
+	<table style="width: 50%" border="2px">
+			<thead class="border-thead">
+				<td width="250px">Name</td>
+				<td width="250px">Value</td>
 		</thead>
 		<tr>
-				<td>Name</td>
-				<td></td>
+			<td>Name</td>
+				<td><input type="text" name="name" placeholder="Enter your name" size="39"></td>
 		</tr>
 		<tr>
 				<td>Sex</td>
-				<td>Male <br> Female</td>
+				<td><input type="radio" name="gender" checked>Male <br><input type="radio" name="gender"> Female</td>
 		</tr>
 		<tr>
 				<td>Eye Color</td>
-				<td></td>
-		</tr>
-		<tr>
-				<td></td>
-				<td></td>
+			
+				<td><select>
+					<option>green</option>
+					<option>black</option>
+					<option>brown</option>
+					
+					</select></td>
 		</tr>
 		<tr>
 				<td>Check all that apply</td>
-				<td></td>
+				<td><input type="checkbox" name="6feet">Over 6 feet tall <br> <input type="checkbox" name="200pounds">Over 200 pounds</td>
 		</tr>
 		<tr>
-				<td>Describe your athletic ability:</td>
-			<td></td>
-				
+				<td colspan="2">Describe your athletic ability:<br><textarea cols="85" rows="8"></textarea></td>
+			
 		</tr>
-		<tr><input type="submit" Value="Enter my information">
+		<tr>
+			<td colspan="2" align="center"><input type="submit" Value="Enter my information"></td>
 		</tr>
 			</table>
+			<br><br>
+			 <!--simple form with fieldset-->
+			<div class="bg-simpl-form">
+				<div class="header-simple-form"><span class="header-font">Simple Form with Fieldsets</span></div>
+				<fieldset class="simpl-form">
+					<legend><input type="checkbox" checked class="header-font">User Information</legend>
+					<table>
+					<tr><td>First Name:</td>
+						<td><input type="text" name="fname" size="35" class="left-mrgn" autofocus></td></tr>
+					<tr>	<td>Last Name:</td>
+						<td><input type="text" name="lname" size="35" class="left-mrgn"></td> </tr>
+					<tr>
+						<td>Company:</td>
+						<td><input type="text" name="company" size="35" class="left-mrgn"></td></tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="email" name="email" size="35" class="left-mrgn"></td>
+						</tr>
+						</table>
+					</fieldset>
+
+				<fieldset class="simpl-form">
+					<legend><input type="checkbox" checked class="header-font">Phone Numbers</legend>
+					<table>
+					<tr><td>Home:</td>
+						<td><input type="tel" name="home" size="35" class="left-mrgn-1" maxlength="10"></td></tr>
+					<tr>	<td>Business:</td>
+						<td><input type="tel" name="business" size="35" class="left-mrgn-1" maxlength="10"></td> </tr>
+					<tr>
+						<td>Mobile:</td>
+						<td><input type="tel" name="mobile" size="35" class="left-mrgn-1" maxlength="10"></td></tr>
+					<tr>
+						<td>Fax:</td>
+						<td><input type="tel" name="fax" size="35" class="left-mrgn-1" maxlength="10"></td>
+						</tr>
+						</table>
+					</fieldset>
+				<div class="submt"><input type="submit" name="save" value="Save" class="submt-buttn">
+				<input type="submit" name="save" value="Cancel" class="submt-buttn"></div>
+			</div>
 		
 			</body>
 </html>
