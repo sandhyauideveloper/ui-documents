@@ -15,6 +15,6 @@
 .left-mrgn {margin-left: 20px;}
 .left-mrgn-1{margin-left: 30px;}
 .submt{margin:10px; text-align: center;}
-.submt-buttn{background: url("images/submit-buttn.png") repeat-x; width:72px; height: 20px; border:1px solid #9f9f9f; font-size:11px;}
+.submt-buttn{background: url("images/submit-buttn.png") repeat-x; width:72px; height: 20px; border:1px solid #9f9f9f; border-radius: 3px; font-size:11px;}
 
 

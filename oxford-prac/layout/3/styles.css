@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0px; padding:0px; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; font-size:12px;}
+.site-wrapper{ width:760px; margin:auto;}
+.main-menu{height: 50px; background: #b94c61;}
+.header{height: 150px; background: #454291;}
+.middle-base-container{height: 390px; width:760px;}
+.left-container{height: 390px; width:480px; background: #67b94b; float:left;}
+.rty-container{height: 390px; width:280px; background: #547a47; float:left;}
+.footer{height:65px; width:760px; background: #a0732f;}
+
+.menu{margin: 0px; padding:0px;}
+.menu ul{ margin:0px; padding: 0px;}
+.menu ul li{display: inline-block; padding:14px 42px 13px 42px; font-size: 16px; font-family:Arial, Verdana, "Times New Roman"; font-weight: bold;}
+.menu ul li a{text-decoration: none; color:#ffffff;}
+.menu ul li a:hover{color: #00ff00;}
+
+h1 {margin:0px; color:#ffffff; text-align:center; padding-top: 16px;}
