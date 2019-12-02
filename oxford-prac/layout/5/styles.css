@@ -64,19 +64,19 @@ body {
 	padding: 37px 32px 37px 27px;
 	border-radius: 0px 0px 30px 30px;
 }
-.left-container {
+.secondary-container {
 	background: #d0e5f1;
 	border: 1px solid #accad8;
 	width: 245px;
 	float: left;
 }
-.left-container-text {
+.secondary-container-text {
 	font-size: 10px;
 	border-left: 1px solid #accad8;
 	padding: 10px;
 	margin-left: 15px;
 }
-.left-container h3 {
+.secondary-container h3 {
 	color: #481f00;
 	font-style: italic;
 	padding-left: 8px;
@@ -84,7 +84,9 @@ body {
 	font-weight: bold;
 	margin: 10px 0px 0px 0px;
 }
-.rty-container {
+.sub-menu{}
+.sub-menu li a{color:#481f00;}
+.primary-container {
 	float: right;
 	width: 350px;
 	margin-left: 40px;
