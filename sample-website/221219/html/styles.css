@@ -1,0 +1,43 @@
+@charset "utf-8";/* CSS Document */
+
+.clearfix:after {content: ""; clear: both; display: block; } 
+*{ box-sizing: border-box;}
+body{background: #fff; margin: 0px; font-family: verdana; color: #19354d; }
+
+h2{font-size:22px;}
+h4{font-size:12px; margin: 5px 0px; color: #113a3e;}
+h3{font-size:15px; margin:5px 0px;}
+h6{font-size:9px; color: #c7d2d6;}
+p{font-size:11px; line-height: 1.5;}
+a {text-decoration: none; }
+.site-wrapper {width: 1060px; background:url("images/bg.jpg") repeat-y; margin: 0px auto;} 
+.site-wrapper-main{width:760px; background:#fff; margin: 0px auto;}
+
+.site-header{width: 760px;}
+.site-header h2{float: left; margin:15px 0px;}
+.site-header h6{ float: right; text-align: center;  padding-right: 10px; margin:15px 0px;} 
+.site-header .hero-banner{background: url("images/banner.jpg") no-repeat; width:760px; height: 175px; clear: both;}
+
+.content-wrapper{width: 760px; padding:10px 0px; border-bottom: 3px solid #bdd0d6;}
+
+.aside-lft{float:left; margin-right: 10px; width: 140px;}
+.primary-menu{}
+.primary-menu ul{list-style: none; padding:0px; margin:0px;}
+.primary-menu ul li{background:#becfd6; height: 26px; border-left: 4px solid #2d637f; margin-bottom:4px;}
+.primary-menu li a{color:#113a3e; font-weight: bold; padding-left: 10px; font-size: 11px;}
+.primary-menu a:hover{color:#fff; }
+.primary-menu li:hover{background:#2d637f;}
+.about-us{padding:10px; background: #becfd6;}
+.about-us p{font-size:9px; line-height: 1.2;}
+.about-us a{padding-left: 60px; color:#19354d; }
+
+.primary-container{border-left: 2px solid #bdd0d6; border-right:2px solid #bdd0d6; width:500px; float: left; padding:0px 10px;}
+.img-lft{float:left; background: url("images/hut.jpg") no-repeat; width:115px; height: 100px;  border: 4px solid #bdd0d6; margin: 0px 10px 10px 0px;}
+.img-rty{float:right; background: url("images/hut.jpg") no-repeat; width:115px; height: 100px;  border: 4px solid #bdd0d6; margin: 0px 0px 10px 10px;}
+
+.aside-rty{width:100px; float: left; margin-left: 10px;}
+.sub-nav p{font-size: 9px; margin: 0px;}
+
+.footer{padding: 10px 0px 20px 0px; text-align: center; font-size: 10px; color: #c7d2d6;}
+
+
