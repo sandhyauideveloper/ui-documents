@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>javaScript Test</title>
+   
+</head>
+
+<body>
+    <!--14.02.2020-->
+    <h2>My first JavaScript code. How to display date?</h2>
+<p id="date"></p>
+
+<button type="button" onClick="document.getElementById('date').innerHTML = Date()">Click to display Date and Time</button>
+
+<h2>What can JavaScript do?</h2>
+<p id="demo">JavaScript can change HTML content.</p>
+  
+<button type="button" onClick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click</button>
+
+<br><br>
+
+<h2>JavaScript can change HTML attribute values.</h2>
+
+<img id="myimage" src="images/red-flower.png" alt=""><br><br>
+
+<button type="button" onclick="document.getElementById('myimage').src='images/red-flower.png'">Red Flower</button>
+<button type="button" onclick="document.getElementById('myimage').src='images/yellow-flower.png'">Yellow Flower</button>
+
+<h2>JavaScript Can Change HTML Styles (CSS).</h2>
+
+<p id="size">JS can change the style of HTML.</p>
+
+<button type="button" onclick="document.getElementById('size').style.fontSize = '40px'">Click</button>
+
+<h2>JS can hide the HTML element.</h2>
+<p id="hide">JS can hide the HTML element.</p>
+
+<button type="button" onClick="document.getElementById('hide').style.display = 'none'">Hide</button>
+
+<button type="button" onClick="document.getElementById('hide').style.display = 'block'">Show</button>
+
+<!--15.02.2020-->
+<h2 id="first">A Paragraph.</h2>
+
+<button type="button" onclick="myFunction()">Click to change it.</button>
+
+<h4>Sandhya is learning software development.</h4>
+<p>In this, she is learning HTML4, HTML5, CSS2, CSS3, JavaScript, Bootstrap and JQuery. </p>
+
+<p id="demo1">demo1</p>
+
+<h3>Using document.write() after an HTML document is loaded, will delete all existing HTML</h3>
+<button type="button" onclick="document.write(5+6)">Try it</button>
+
+<h4>You can use an alert box to display data.</h4>
+
+<h4>For debugging purposes, you can use the console.log() method to display data</h4>
+
+<!--16.02.2020-->
+
+<P>A JavaScript program is a list of statements to be executed by a computer.</P>
+<p id="statement">statement</p>
+
+<p>When separated by semicolons, multiple statements on one line are allowed.</p>
+<p id="semicolon"></p>
+	
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
